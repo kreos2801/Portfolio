@@ -1,0 +1,17 @@
+:root{
+    /*palette de couleur charte graphique*/
+    --primary-color: #2f4f7f;
+    --secondary-color: #F7DC6F;
+
+    /*Typographie*/
+    --primary-font:'Poppins','sans-serif';
+}
+p{
+    color:var(--primary-color);
+}
+.grospito-01{
+    color:var(--primary-color);
+}
+.grospito-02{
+    color: #F5F5D5;
+}
