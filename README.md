@@ -40,4 +40,6 @@ Performance : Optimisation du chargement des pages et des images (lazy loading, 
 
 # 5. Charte Graphique 
 
-SEO : Optimisation pour le référencement naturel.
+Couleur: #09403A #072623 #F2F2F2 #8C8C8C #0D0D0D
+TypoGraphie: ![image](https://github.com/user-attachments/assets/b7786ff7-170f-4226-bbfe-23bd3057e6e7)
+
