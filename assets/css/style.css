@@ -1,17 +1,79 @@
-:root{
-    /*palette de couleur charte graphique*/
-    --primary-color: #2f4f7f;
-    --secondary-color: #F7DC6F;
+body {
+    background-color: #09403A; /* Couleur de fond de la page */
+    color: #F2F2F2; /* Couleur du texte par défaut */
+    font-family: Arial, sans-serif; /* Police par défaut */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
 
-    /*Typographie*/
-    --primary-font:'Poppins','sans-serif';
+.main-header {
+    background-color: #072623; 
+    padding: 10px 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    box-sizing: border-box; 
+    z-index: 1000; 
 }
-p{
-    color:var(--primary-color);
+
+.main-header .logo {
+    height: 50px; 
 }
-.grospito-01{
-    color:var(--primary-color);
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-.grospito-02{
-    color: #F5F5D5;
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F2F2F2; 
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px;
+    margin: 50px 0;
+    margin-top: 80px; 
+}
+
+section#home {
+    background-color: #09403A; 
+}
+
+section#portfolio {
+    background-color: #09403A; 
+}
+
+section#contact {
+    background-color: #09403A;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #072623;
+    color: #F2F2F2;
 }
