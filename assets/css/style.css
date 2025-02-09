@@ -87,14 +87,6 @@ section#home {
     background-color: #09403A;
 }
 
-section#portfolio {
-    background-color: #09403A;
-}
-
-section#contact {
-    background-color: #09403A;
-}
-
 article img {
     max-width: 100%;
     height: auto;
@@ -111,15 +103,35 @@ footer {
     color: #F2F2F2;
 }
 
-.logo-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    margin-top: 80px; 
+#bio {
+    scroll-margin-top: 90px;
 }
 
-.logo-body img {
-    max-width: 80%;
+.bio-container {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+    justify-content: center; /* Centrer tout le contenu dans la section */
+    max-width: 800px; /* Limite la largeur du bloc pour éviter qu’il ne prenne toute la page */
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+.photo-bio {
+    width: 200px;
     height: auto;
+    border-radius: 10px;
+}
+
+.bio-text {
+    display: flex;
+    flex-direction: column; /* Empile le titre et le texte verticalement */
+    justify-content: center; /* Centre verticalement le texte */
+    flex: 1; /* Permet au texte de prendre tout l’espace disponible */
+    text-align: justify; /* Justifie le texte pour un meilleur rendu */
+}
+
+.bio-text h2 {
+    margin: 0 0 10px 0; /* Ajoute un espace sous le titre */
+    font-size: 24px;
+    color: #F2F2F2;
 }

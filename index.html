@@ -6,7 +6,6 @@
     <meta name="description" content="Un site pour me présenter">
     <meta name="keywords" content="Ma bio, mon portfolio, Comment me contacter">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <title>Grospito</title>
 </head>
 <body>
@@ -23,31 +22,48 @@
         </div>
     </header>
     <main id="top">
-        <section class="logo-body">
-            <img src="assets/img/Logo_Yann.png" alt="Logo" class="logo-body">
-        </section>
-        <section id="bio">
-            <article>
-                <h1>Bio</h1>
-                <p class="grospito-01"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repudiandae, aliquid voluptatum perferendis placeat provident itaque, repellendus beatae facilis officiis explicabo. Exercitationem magni sint, quidem sed ab amet neque aliquam.</p>
-            </article>
-        </section>
-        <section id="portfolio">
-            <article>
-                <h2>mortpito</h2>
-                <img src="assets/img/20240804_170139.jpg" alt="Mortpito">
-                <p class="gropito-02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sequi. Dolorum eius, a pariatur id totam esse, aliquam, perspiciatis facilis accusantium asperiores ut! Perferendis magni exercitationem, inventore quas ex vel.</p>
-            </article>
-        </section>
-        <section id="contact">
-            <article>
-                <h2>Contact</h2>
-                <p>Contactez-moi via ce formulaire.</p>
-            </article>
-        </section>
+        <article>
+            <section id="bio">
+                <div class="bio-wrapper">
+                    <div class="bio-container">
+                        <img src="assets/img/Photo_BG.jpg" alt="Photo_bg" class="photo-bio">
+                        <div class="bio-text">
+                            <h2>À propos de moi</h2>
+                            <p>👋 <strong>Bonjour, je m'appelle Yann Gaouditz !</strong><br><br>
+                                Actuellement étudiant à l'ESIEA, je fais partie de la promotion 2027. Passionné d’informatique,
+                                je me spécialise principalement en langage C et j’adore les CTF (Capture The Flag), où je développe mes compétences en cybersécurité et en résolution de défis techniques.
+                                Je débute également en développement web, ce qui me permet d’élargir mes compétences et d’explorer de nouveaux horizons.
+                                Côté linguistique, j’ai obtenu un score de 860 au TOEIC, ce qui me permet d’être à l’aise en anglais technique et professionnel.
+                                Toujours curieux et motivé, j’aime apprendre, relever des défis et améliorer mes compétences chaque jour. 🚀
+                            </p>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
     </main>
     <footer>
-        <p>copyright</p>
+        <p>copyright Yanou industry</p>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+
+            links.forEach(link => {
+                link.addEventListener("click", function(e) {
+                    e.preventDefault(); // Empêcher le comportement par défaut du lien
+
+                    const targetId = this.getAttribute("href");
+                    const targetElement = document.querySelector(targetId);
+                    
+                    // Défilement doux, en ajustant l'offset pour éviter de cacher la section
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 110,  // 110px est la hauteur du header
+                        behavior: "smooth"
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
