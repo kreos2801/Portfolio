@@ -1,63 +1,94 @@
 body {
-    background-color: #09403A; 
-    color: #F2F2F2; 
-    font-family: Arial, sans-serif; 
+    background-color: #09403A;
+    color: #F2F2F2;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .main-header {
-    background-color: #072623; 
-    padding: 20px 30px; 
+    background-color: #072623;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    position: fixed; 
+    justify-content: space-between; 
+    position: fixed;
     top: 0;
     width: 100%;
-    box-sizing: border-box; 
-    z-index: 1000; 
+    box-sizing: border-box;
+    z-index: 1000;
+    height: 70px;
 }
 
 .main-header .logo {
-    height: 50px; 
-    position: absolute; 
-    left: 10px; 
+    height: 50px;
+    max-height: 100%; 
+}
+
+.nav-container {
+    flex-grow: 1;  
+    display: flex;
+    justify-content: center;  
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li a {
-    color: #F2F2F2; 
+    color: #F2F2F2;
     text-decoration: none;
+    font-size: 18px;
+    display: inline-block; 
+    padding: 5px 10px; 
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px; 
+    width: 0;
+    height: 2px;
+    background: #8C8C8C;
+    transition: width 0.5s, left 0.5s;
+}
+
+nav ul li {
+    position: relative; 
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #8C8C8C;
 }
 
 section {
-    padding: 50px;
-    margin: 50px 0;
-    margin-top: 80px; 
+    padding: 30px;
+    margin: 30px 0; 
+    margin-top: 80px;
 }
 
 section#home {
-    background-color: #09403A; 
+    background-color: #09403A;
 }
 
 section#portfolio {
-    background-color: #09403A; 
+    background-color: #09403A;
 }
 
 section#contact {
@@ -70,7 +101,7 @@ article img {
 }
 
 article {
-    margin-bottom: 30px;
+    margin-bottom: 20px; 
 }
 
 footer {
@@ -78,4 +109,17 @@ footer {
     padding: 10px;
     background-color: #072623;
     color: #F2F2F2;
+}
+
+.logo-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-top: 80px; 
+}
+
+.logo-body img {
+    max-width: 80%;
+    height: auto;
 }
