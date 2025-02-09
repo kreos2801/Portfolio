@@ -1,18 +1,18 @@
 body {
-    background-color: #09403A; /* Couleur de fond de la page */
-    color: #F2F2F2; /* Couleur du texte par défaut */
-    font-family: Arial, sans-serif; /* Police par défaut */
+    background-color: #09403A; 
+    color: #F2F2F2; 
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Empêche le défilement horizontal */
+    overflow-x: hidden; 
 }
 
 .main-header {
     background-color: #072623; 
-    padding: 10px 30px; 
+    padding: 20px 30px; 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; 
     position: fixed; 
     top: 0;
     width: 100%;
@@ -22,6 +22,8 @@ body {
 
 .main-header .logo {
     height: 50px; 
+    position: absolute; 
+    left: 10px; 
 }
 
 nav ul {
