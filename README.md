@@ -54,7 +54,8 @@ Logo:
 
 # 6. Use case 
 
-![image](https://github.com/user-attachments/assets/1ec22486-98e4-4a59-9391-fd8abe33f590)
+![image](https://github.com/user-attachments/assets/67f05be8-2756-4d5b-8b12-a16da8842e3c)
+
 
 
 
