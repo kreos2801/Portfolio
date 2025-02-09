@@ -38,4 +38,6 @@ Design Responsive : Adaptation mobile-first, compatibilité avec tous les naviga
 
 Performance : Optimisation du chargement des pages et des images (lazy loading, compression).
 
+# 5. Charte Graphique 
+
 SEO : Optimisation pour le référencement naturel.
