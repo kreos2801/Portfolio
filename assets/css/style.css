@@ -12,7 +12,7 @@ body {
     padding: 10px 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,49 +23,44 @@ body {
 
 .main-header .logo {
     height: 50px;
-    max-height: 100%; 
+    max-height: 100%;
 }
 
 .nav-container {
-    flex-grow: 1;  
+    flex-grow: 1;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    gap: 20px; 
+    gap: 20px;
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
-    margin: 0;
-    padding: 0;
+    position: relative;
 }
 
 nav ul li a {
     color: #F2F2F2;
     text-decoration: none;
     font-size: 18px;
-    display: inline-block; 
-    padding: 5px 10px; 
+    display: inline-block;
+    padding: 5px 10px;
 }
 
 nav ul li a::after {
     content: '';
     position: absolute;
     left: 50%;
-    bottom: -2px; 
+    bottom: -2px;
     width: 0;
     height: 2px;
     background: #8C8C8C;
     transition: width 0.5s, left 0.5s;
-}
-
-nav ul li {
-    position: relative; 
 }
 
 nav ul li a:hover::after {
@@ -79,21 +74,8 @@ nav ul li a:hover {
 
 section {
     padding: 30px;
-    margin: 30px 0; 
+    margin: 30px 0;
     margin-top: 80px;
-}
-
-section#home {
-    background-color: #09403A;
-}
-
-article img {
-    max-width: 100%;
-    height: auto;
-}
-
-article {
-    margin-bottom: 20px; 
 }
 
 footer {
@@ -109,11 +91,11 @@ footer {
 
 .bio-container {
     display: flex;
-    align-items: flex-start; 
-    gap: 20px; 
-    justify-content: center; /* Centrer tout le contenu dans la section */
-    max-width: 800px; /* Limite la largeur du bloc pour éviter qu’il ne prenne toute la page */
-    margin: 0 auto; /* Centrer horizontalement */
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .photo-bio {
@@ -124,14 +106,117 @@ footer {
 
 .bio-text {
     display: flex;
-    flex-direction: column; /* Empile le titre et le texte verticalement */
-    justify-content: center; /* Centre verticalement le texte */
-    flex: 1; /* Permet au texte de prendre tout l’espace disponible */
-    text-align: justify; /* Justifie le texte pour un meilleur rendu */
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    text-align: justify;
 }
 
 .bio-text h2 {
-    margin: 0 0 10px 0; /* Ajoute un espace sous le titre */
+    margin: 0 0 10px 0;
     font-size: 24px;
     color: #F2F2F2;
+}
+
+#portfolio h1 {
+    text-align: center;  
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center; 
+    flex-wrap: nowrap; 
+    margin-bottom: 30px;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.portfolio-text {
+    max-width: 600px;
+    text-align: justify;
+}
+
+.photo-portfolio {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.github-link {
+    display: inline;
+    font-weight: bold;
+    color: #072623; 
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 2px solid #072623; 
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.github-link:hover {
+    color: #0D0D0D; 
+    border-bottom: 2px solid #0D0D0D;
+}
+
+#certifications-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.certification-content {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.badge-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.photo-badge {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.badge-text {
+    max-width: 500px;
+    text-align: center;
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.thm-link {
+    display: inline;
+    font-weight: bold;
+    color: #0D0D0D; 
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 2px solid #0D0D0D; 
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.thm-link:hover {
+    color: #072623; 
+    border-bottom: 2px solid #072623;
 }

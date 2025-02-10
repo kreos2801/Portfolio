@@ -16,11 +16,12 @@
                 <ul>
                     <li><a href="#bio">Bio</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certifications-badges">Certifications & badges</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
+    </header>    
     <main id="top">
         <article>
             <section id="bio">
@@ -41,29 +42,106 @@
                 </div>
             </section>
         </article>
+        <article>
+            <section id="portfolio">
+                <div class="portfolio-content">
+                    <h1>Quelques projets réalisés</h1>
+                    
+                    <!-- Premier projet -->
+                    <div class="portfolio-item">
+                        <img src="assets/img/script_capture.png" alt="Photo_script" class="photo-portfolio">
+                        <div class="portfolio-text">
+                            <p>Un script en PowerShell qui permet d'automatiser son ordinateur au démarrage.</p>
+                            <a href="https://github.com/kreos2801/script_Powershell" target="_blank" class="github-link">
+                                📂 Cliquer ici pour accéder au repository
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!-- Deuxième projet -->
+                    <div class="portfolio-item">
+                        <img src="assets/img/hess.inc_capture.png" alt="Photo_hess.inc" class="photo-portfolio">
+                        <div class="portfolio-text">
+                            <p>Un projet en C développé pour simuler une pandémie entre plusieurs villes.</p>
+                            <a href="https://github.com/kreos2801/simple-pandemic-simulation" target="_blank" class="github-link">
+                                📂 Cliquer ici pour accéder au repository
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!-- Troisième projet -->
+                    <div class="portfolio-item">
+                        <img src="assets/img/CodePortfolio_capture.png" alt="Photo_codePortfolio" class="photo-portfolio">
+                        <div class="portfolio-text">
+                            <p>Le code du site web que vous êtes en train de parcourir.</p>
+                            <a href="https://github.com/kreos2801/Portfolio" target="_blank" class="github-link">
+                                📂 Cliquer ici pour accéder au repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article>
+            <section id="certifications-badges">
+                <div class="certification-content">
+                    <h1>Mes certifications et mes badges</h1>
+
+                    <div class="badge-container">
+                        <div class="badge-item">
+                            <img src="assets\img\THM-8UHZAQHVZ3-1.png" alt="Certification_101" class="photo-badge">
+                            <div class="badge-text">
+                                <p>La certification tryHackme pour avoir complété toute les room lié à cybersecurity 101</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="badge-container">
+                        <div class="badge-item">
+                            <img src="assets\img\Certificat_pre_securité_tryhackme.png" alt="Certification_Pre" class="photo-badge">
+                            <div class="badge-text">
+                                <p>La certification tryHackme pour avoir complété toute les room lié à Pre security</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    
+                    <div class="badge-container">
+                        <div class="badge-item">
+                            <img src="assets/img/blue_badge.png" alt="Blue_badge" class="photo-badge">
+                            <div class="badge-text">
+                                <p>Un badge pour avoir complété la room eternal blue.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="badge-container">
+                        <div class="badge-item">
+                            <img src="assets/img/Owasp_badge.png" alt="OWASP_badge" class="photo-badge">
+                            <div class="badge-text">
+                                <p>Un badge pour avoir complété la room top 10 owasp.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="badge-container">
+                        <div class="badge-item">
+                            <img src="assets/img/metasploit_badge.png" alt="Metasploit_badge" class="photo-badge">
+                            <div class="badge-text">
+                                <p>Un badge pour avoir complété les room Metasploit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://tryhackme.com/p/yanou280" target="_blank" class="thm-link">
+                        Cliquer ici pour accéder a mon profil TryHackMe
+                    </a>
+                </div>
+            </section>
+        </article>        
     </main>
     <footer>
         <p>copyright Yanou industry</p>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const links = document.querySelectorAll('a[href^="#"]');
-
-            links.forEach(link => {
-                link.addEventListener("click", function(e) {
-                    e.preventDefault(); // Empêcher le comportement par défaut du lien
-
-                    const targetId = this.getAttribute("href");
-                    const targetElement = document.querySelector(targetId);
-                    
-                    // Défilement doux, en ajustant l'offset pour éviter de cacher la section
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 110,  // 110px est la hauteur du header
-                        behavior: "smooth"
-                    });
-                });
-            });
-        });
-    </script>
+    <script src="assets\js\smooth-scroll.js"></script>
 </body>
 </html>
