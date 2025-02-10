@@ -72,5 +72,24 @@ Contacte page
 Formulaire page
 ![image](https://github.com/user-attachments/assets/ba884eeb-ce99-4d1d-aaa5-469020a52289)
 
+# 8. Maquettage
+
+Home page
+![image](https://github.com/user-attachments/assets/b5f4ca49-9786-4569-b78b-599c998598bf)
+
+Portfolio page
+![image](https://github.com/user-attachments/assets/28e5b3a6-00a9-4e70-b2f6-64702a7993f5)
+
+Certification page
+![image](https://github.com/user-attachments/assets/82b09469-85be-47e6-9647-643c7a4d5745)
+
+Contacte page
+![image](https://github.com/user-attachments/assets/33a8b13a-4c51-4f53-a10f-b6c581cb5f8c)
+
+Formulaire page
+![image](https://github.com/user-attachments/assets/57e60031-8040-44b2-9942-08f1185a99db)
+
+
+
 
 
