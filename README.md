@@ -44,9 +44,8 @@ Couleur: #09403A #072623 #F2F2F2 #8C8C8C #0D0D0D
 
 TypoGraphie:
 
-![image](https://github.com/user-attachments/assets/b7786ff7-170f-4226-bbfe-23bd3057e6e7)
+![image](https://github.com/user-attachments/assets/f93bc191-0f9f-4853-991c-1f9d6b7a4aa2)
 
-![image](https://github.com/user-attachments/assets/a98ac2f3-6b73-468b-b29b-d4db0b11ef10)
 
 Logo:
 
