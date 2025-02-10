@@ -220,3 +220,122 @@ footer {
     color: #072623; 
     border-bottom: 2px solid #072623;
 }
+
+#contact p {
+    color: #0D0D0D; 
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#contact {
+    padding: 50px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+.contact-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.email-link {
+    color: #0D0D0D;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Style pour les réseaux sociaux */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #0D0D0D;
+    font-size: 1.2em;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+}
+
+.social-link i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.social-link p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Style du formulaire de contact */
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0D0D0D;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+    text-align: center;
+}
+
+.contact-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #0D0D0D;
+}
+
+.contact-form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8C8C8C;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.contact-form-container button:hover {
+    background-color: #072623;
+}
+
+.contact-form-container {
+    padding-top: 100px; /* Ajuste la valeur selon la hauteur de ton header */
+    margin: 0 auto;
+    width: 80%;
+}
