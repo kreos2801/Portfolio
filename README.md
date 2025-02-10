@@ -44,9 +44,8 @@ Couleur: #09403A #072623 #F2F2F2 #8C8C8C #0D0D0D
 
 TypoGraphie:
 
-![image](https://github.com/user-attachments/assets/b7786ff7-170f-4226-bbfe-23bd3057e6e7)
+![image](https://github.com/user-attachments/assets/f93bc191-0f9f-4853-991c-1f9d6b7a4aa2)
 
-![image](https://github.com/user-attachments/assets/a98ac2f3-6b73-468b-b29b-d4db0b11ef10)
 
 Logo:
 
@@ -56,8 +55,22 @@ Logo:
 
 ![image](https://github.com/user-attachments/assets/67f05be8-2756-4d5b-8b12-a16da8842e3c)
 
+# 7. Wireframe
 
+Home page
+![image](https://github.com/user-attachments/assets/a2f595e9-4ebb-4ff7-8fbf-3c16063e7661)
 
+Portfolio page
+![image](https://github.com/user-attachments/assets/4c9a232f-835c-4c4b-90ab-775e75c5ed71)
+
+Certification page
+![image](https://github.com/user-attachments/assets/c5e3ff3c-ad01-441a-b72e-e965c6f7d703)
+
+Contacte page
+![image](https://github.com/user-attachments/assets/5b55ce8f-65d5-448a-b755-0c5afc1d40ef)
+
+Formulaire page
+![image](https://github.com/user-attachments/assets/ba884eeb-ce99-4d1d-aaa5-469020a52289)
 
 
 
