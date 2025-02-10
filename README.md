@@ -56,8 +56,22 @@ Logo:
 
 ![image](https://github.com/user-attachments/assets/67f05be8-2756-4d5b-8b12-a16da8842e3c)
 
+# 7. Wireframe
 
+Home page
+![image](https://github.com/user-attachments/assets/a2f595e9-4ebb-4ff7-8fbf-3c16063e7661)
 
+Portfolio page
+![image](https://github.com/user-attachments/assets/4c9a232f-835c-4c4b-90ab-775e75c5ed71)
+
+Certification page
+![image](https://github.com/user-attachments/assets/c5e3ff3c-ad01-441a-b72e-e965c6f7d703)
+
+Contacte page
+![image](https://github.com/user-attachments/assets/5b55ce8f-65d5-448a-b755-0c5afc1d40ef)
+
+Formulaire page
+![image](https://github.com/user-attachments/assets/ba884eeb-ce99-4d1d-aaa5-469020a52289)
 
 
 
