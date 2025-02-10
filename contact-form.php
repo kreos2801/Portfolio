@@ -13,12 +13,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = new PHPMailer(true);
 
     try {
-        // Configuration SMTP
+        
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com'; // Serveur SMTP (Gmail ici)
+        $mail->Host = 'smtp.gmail.com'; 
         $mail->SMTPAuth = true;
-        $mail->Username = 'yanngaouditz@gmail.com'; // Remplace par ton email
-        $mail->Password = 'kvjp lswg qzan fqca'; // Mot de passe (utilise un MDP d'application pour Gmail)
+        $mail->Username = 'yanngaouditz@gmail.com'; 
+        $mail->Password = 'kvjp lswg qzan fqca'; 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 

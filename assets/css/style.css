@@ -254,7 +254,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Style pour les réseaux sociaux */
 .social-links {
     display: flex;
     justify-content: center;
@@ -290,7 +289,6 @@ h2 {
     font-size: 1em;
 }
 
-/* Style du formulaire de contact */
 .contact-form-container {
     max-width: 600px;
     margin: 0 auto;
@@ -335,7 +333,7 @@ h2 {
 }
 
 .contact-form-container {
-    padding-top: 100px; /* Ajuste la valeur selon la hauteur de ton header */
+    padding-top: 100px; 
     margin: 0 auto;
     width: 80%;
 }
