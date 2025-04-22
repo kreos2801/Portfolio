@@ -3,12 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     links.forEach(link => {
         link.addEventListener("click", function(e) {
-            e.preventDefault(); 
+            e.preventDefault();
+
             const targetId = this.getAttribute("href");
             const targetElement = document.querySelector(targetId);
             
             window.scrollTo({
-                top: targetElement.offsetTop - 110, 
+                top: targetElement.offsetTop - 110,
                 behavior: "smooth"
             });
             
