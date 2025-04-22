@@ -1,4 +1,3 @@
-
 .gloria-hallelujah-regular {
     font-family: "Gloria Hallelujah", serif;
     font-weight: 400;
@@ -23,12 +22,12 @@ body {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
     z-index: 1000;
-    height: auto; 
+    height: auto;
     min-height: 60px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .main-header .logo {
@@ -273,7 +272,7 @@ footer {
     color: #0D0D0D;
     font-size: 1.1rem;
     text-decoration: none;
-    word-break: break-all; 
+    word-break: break-all;
 }
 
 .email-link:hover {
@@ -322,6 +321,11 @@ h2 {
     font-size: 1rem;
 }
 
+.contact-form-section {
+    margin-top: 50px;
+    width: 100%;
+}
+
 .contact-form-container {
     max-width: 600px;
     margin: 0 auto;
@@ -335,12 +339,18 @@ h2 {
 
 .contact-form-container h2 {
     text-align: center;
+    color: #F2F2F2;
+}
+
+.form-group {
+    margin-bottom: 15px;
 }
 
 .contact-form-container label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #F2F2F2;
 }
 
 .contact-form-container input,
@@ -348,24 +358,55 @@ h2 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     border-radius: 5px;
-    border: 1px solid #0D0D0D;
+    border: 1px solid #8C8C8C;
+    background-color: #F2F2F2;
+    font-family: inherit;
 }
 
 .contact-form-container button {
     width: 100%;
     padding: 12px;
-    background-color: #8C8C8C;
+    background-color: #09403A;
     color: #F2F2F2;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: inherit;
 }
 
 .contact-form-container button:hover {
     background-color: #072623;
+}
+
+.form-status {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.success {
+    display: block;
+    background-color: rgba(76, 175, 80, 0.2);
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.error {
+    display: block;
+    background-color: rgba(244, 67, 54, 0.2);
+    color: #F44336;
+    border: 1px solid #F44336;
+}
+
+.sending {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 @media screen and (max-width: 1024px) {
@@ -390,7 +431,7 @@ h2 {
 @media screen and (max-width: 768px) {
     .main-header {
         padding: 10px 15px;
-        width: 100%; 
+        width: 100%;
     }
     
     .menu-toggle {
